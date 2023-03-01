@@ -1,0 +1,262 @@
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.3em;
+    line-height: 1.6;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Titulo{
+    color:blueviolet;
+    font-size: 30px;
+    text-align:center;
+    margin-bottom: 60px;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+menu a{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    
+}
+
+.nav a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.nav  >  a:hover{
+    text-decoration: underline;
+}
+
+.wave{
+    position: inherit;
+    bottom: auto;
+    height: 100%;
+}
+
+header .Textos-header{
+    display: flex;
+    height:430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.Textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.Textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+.Imagen-about{
+    width: 30%;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+}
+
+.sobre_nosotros .Contenido_textos{
+    width: 30%;
+}
+
+.Contenido_textos p{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.Contenedor_imagen{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background: #ccc;
+    flex: 1 1 300px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    position:relative;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.portafolio{
+    background-color: #f2f2f2;
+}
+
+
+
+.Contenedor_imagen .img{
+    width: 80%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+
+.Contenedor_imagen .img >img{
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+    display: block;
+    filter: drop-shadow(0 3px 5px rgba(0, 0, 0, .7));
+}
+
+.contenedor2{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor2 .Card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25;
+}
+
+.contenedor2  .Card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor2 .Card h3{
+    font-weight: 600;
+}
+.contenedor2 .Card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.Testimonios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.testimonios_caja{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.perfil-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.perfil-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+
+}
+
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-user strong{
+    color: #3d3d3d;
+    font-size: 1.3rem;
+}
+.name-user span{
+    color: #979797;
+    font-size: 1.1rem;
+}
+
+.testimonio_clientes p{
+    color: #4d4d4d;
+
+}
+
+.contenedor_footer{
+    background: #ccc;
+    flex-direction: column;
+    border: none;
+
+}
+
+.Content-foo{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Content-foo h4{
+    border: none;
+}
+.Content-foo p{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid#f2f2f2;
+    padding-bottom: 20px;
+}
+
